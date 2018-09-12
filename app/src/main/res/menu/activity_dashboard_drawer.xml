@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Search"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="Animal" />
+        <item
+            android:id="@+id/Abstract"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Abstract" />
+        <item
+            android:id="@+id/Anime"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Anime" />
+        <item
+            android:id="@+id/Artistic"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Artistic" />
+        <item
+            android:id="@+id/Celebrity"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Celebrity" />
+        <item
+            android:id="@+id/Comics"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Comics" />
+    </group>
+
+</menu>
