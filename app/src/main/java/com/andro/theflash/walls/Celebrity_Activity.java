@@ -43,7 +43,7 @@ public class Celebrity_Activity extends BaseActivity {
             HttpHandler sh = new HttpHandler();
 
 
-            final String jsonCat = sh.makeServiceCall("https://wall.alphacoders.com/api2.0/get.php?auth=321a42093f3753ca40879d07bcfbd714&method=category&id=7&page=1&info_level=2");
+            final String jsonCat = sh.makeServiceCall("https://wall.alphacoders.com/api2.0/get.php?auth=API_KEY&method=category&id=7&page=1&info_level=2");
 
             Log.e(TAG, "Response from celeb url: " + jsonCat);
             try {
