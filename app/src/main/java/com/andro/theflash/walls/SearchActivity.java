@@ -80,7 +80,7 @@ public class SearchActivity extends BaseActivity {
             HttpHandler sh = new HttpHandler();
 
 
-            String searchurl = "https://wall.alphacoders.com/api2.0/get.php?auth=321a42093f3753ca40879d07bcfbd714&page=1&method=search&term="+voids[0]+"";
+            String searchurl = "https://wall.alphacoders.com/api2.0/get.php?auth=API_KEY&page=1&method=search&term="+voids[0]+"";
             final String jsonCat = sh.makeServiceCall(searchurl);
            // Log.e(TAG, "Response from search url: " + jsonCat);
             Log.e(TAG, "Response search name: " + searchurl);
